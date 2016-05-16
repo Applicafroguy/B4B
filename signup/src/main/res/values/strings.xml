@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Sign up</string>
+    <string name="hintName">John Doe</string>
+    <string name="hintEmail">john@mail.com / 072 123 4567</string>
+    <string name="hintPassword">Password</string>
+    <string name="hintPasswordRetyp">Confirm Password</string>
 </resources>

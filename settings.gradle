@@ -1,1 +1,1 @@
-include ':app', ':signup'
+include ':app', ':signup', ':account'

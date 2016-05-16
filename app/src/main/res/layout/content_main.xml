@@ -12,8 +12,13 @@
     tools:context="za.co.applicafro.sivuyile.realblessar.MainActivity"
     tools:showIn="@layout/app_bar_main">
 
-    <TextView
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="Sign up"
+        android:id="@+id/btnSignup"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="76dp"
+        android:onClick="onClickSignUp" />
 </RelativeLayout>
