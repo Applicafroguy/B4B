@@ -24,4 +24,4 @@ To contrube just fork the, or clone the repository.
 
 ## License
 
-This software is under [GNU General Public License v3.0(lisence.md)]
+This software is under [GNU General Public License v3.0](lisence.md)
