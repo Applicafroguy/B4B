@@ -2,7 +2,7 @@
 
 ## Domain Model
 
-![Domain Model](model.png)
+![Domain Model](DomainModel.png)
 
 ## Code Example
 
