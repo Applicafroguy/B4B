@@ -1,4 +1,4 @@
-## BBB the app
+## B4B the app
 
 B4B is an **Android Mobile** app, that will connect People, this app is inspired by the trend **Blesser**. Although there are many ways to connect using your smart phone, but the is no dedicated platform **showboating**. Users will be able to link their **Social Media** sites such as **Facebook**, **Twitter** and **Instagram** . Privacy is our main focus, so It is up to the User stay anonymous or be public. Users will also be able to **Post**, **Comment**, **Share** and **Chat** to other registered Users.
 
