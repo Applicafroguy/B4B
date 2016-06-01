@@ -40,7 +40,7 @@ public class UserRepositoryImp extends SQLiteOpenHelper implements UserRepositor
             + COLUMN_BIRTHDATE + " DATE NOT NULL , "
             + COLUMN_GENDER + " TEXT NOT NULL , "
             + COLUMN_EMAILADDRESS + " TEXT UNIQUE , "
-            + COLUMN_PHONE + " TEXT UNIQUE NOT NULL );";
+            + COLUMN_PHONE + " INTEGER UNIQUE NOT NULL );";
 
     public UserRepositoryImp(Context context, String name, SQLiteDatabase.CursorFactory factory, int version) {
         super(context, DBConstants.DATABASE_NAME, null, DBConstants.DATABASE_VERSION);
@@ -167,6 +167,7 @@ public class UserRepositoryImp extends SQLiteOpenHelper implements UserRepositor
 
     @Override
     public int deleteAll() {
+
         open();
         int rowsDeleted = db.delete(TABLE_NAME,null,null);
         close();
